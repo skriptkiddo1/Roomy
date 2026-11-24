@@ -1,0 +1,137 @@
+{
+ "extName": {
+  "message": "Roomy Tabs"
+ },
+ "extDescription": {
+  "message": "Усыпляет давно не открытые вкладки и освобождает память. Не трогает вкладки со звуком, с набранным текстом и нужные вам сайты."
+ },
+ "enabledTitle": {
+  "message": "Включить или выключить автоматическое усыпление"
+ },
+ "tabsTotal": {
+  "message": "всего вкладок"
+ },
+ "tabsSleeping": {
+  "message": "спят"
+ },
+ "tabsAwake": {
+  "message": "не спят"
+ },
+ "sleepNow": {
+  "message": "Усыпить неактивные вкладки сейчас"
+ },
+ "details": {
+  "message": "Подробно"
+ },
+ "protectedNow": {
+  "message": "Сейчас не усыпляются"
+ },
+ "settingsTitle": {
+  "message": "Настройки"
+ },
+ "idleLabel": {
+  "message": "Засыпать после"
+ },
+ "pressureIdleLabel": {
+  "message": "Когда памяти мало — после"
+ },
+ "pressureThresholdLabel": {
+  "message": "Памяти мало, если свободно меньше"
+ },
+ "protectPinned": {
+  "message": "Не усыплять закреплённые вкладки"
+ },
+ "protectAudible": {
+  "message": "Не усыплять вкладки со звуком (музыка, видео, звонки)"
+ },
+ "protectForms": {
+  "message": "Не усыплять вкладки, где вы начали печатать (письмо, комментарий, форма)"
+ },
+ "whitelistTitle": {
+  "message": "Сайты, которые никогда не усыплять"
+ },
+ "whitelistHint": {
+  "message": "По одному на строку. Поддомены тоже учитываются: vk.com включает m.vk.com."
+ },
+ "save": {
+  "message": "Сохранить"
+ },
+ "saved": {
+  "message": "Сохранено"
+ },
+ "howItWorks": {
+  "message": "Спящая вкладка остаётся на месте и почти не занимает память. Нажмёте на неё — она загрузится заново."
+ },
+ "resetSettings": {
+  "message": "Сбросить настройки"
+ },
+ "resetConfirm": {
+  "message": "Вернуть все настройки и список сайтов по умолчанию?"
+ },
+ "gb": {
+  "message": "ГБ"
+ },
+ "min": {
+  "message": "мин"
+ },
+ "percentFree": {
+  "message": "% свободно"
+ },
+ "memFree": {
+  "message": "Свободно $1 из $2"
+ },
+ "memUnknown": {
+  "message": "Браузер не сообщает, сколько памяти свободно — работаем по таймеру."
+ },
+ "ruleOff": {
+  "message": "Автоматическое усыпление выключено."
+ },
+ "ruleNormal": {
+  "message": "Вкладки, которые вы не открывали $1 мин, засыпают."
+ },
+ "rulePressure": {
+  "message": "Памяти мало — вкладки засыпают уже через $1 мин."
+ },
+ "siteNever": {
+  "message": "этот сайт никогда не усыпляется"
+ },
+ "siteNormal": {
+  "message": "этот сайт может засыпать"
+ },
+ "siteProtect": {
+  "message": "Не усыплять"
+ },
+ "siteAllow": {
+  "message": "Разрешить сон"
+ },
+ "protAudible": {
+  "message": "со звуком: $1"
+ },
+ "protPinned": {
+  "message": "закреплённые: $1"
+ },
+ "protForm": {
+  "message": "с набранным текстом: $1"
+ },
+ "protWhitelist": {
+  "message": "сайты-исключения: $1"
+ },
+ "protNone": {
+  "message": "Таких вкладок нет."
+ },
+ "statsLine": {
+  "message": "Усыплено сегодня: $1 · всего: $2"
+ },
+ "sleptN": {
+  "message": "Усыплено вкладок: $1"
+ },
+ "sleptNone": {
+  "message": "Усыплять нечего — все неактивные уже спят или защищены."
+ },
+ "usedPct": {
+  "message": "занято $1%"
+ },
+ "decimalSep": {
+  "message": ","
+ }
+}

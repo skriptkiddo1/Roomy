@@ -1,0 +1,52 @@
+НАЗВАНИЕ: Roomy Tabs
+
+КОРОТКОЕ ОПИСАНИЕ (RU):
+Усыпляет давно не открытые вкладки и освобождает память. Не трогает вкладки со звуком, с набранным текстом и нужные вам сайты.
+
+SHORT DESCRIPTION (EN):
+Puts tabs you haven't opened in a while to sleep to free memory. Never touches tabs with audio, typed text or sites you choose.
+
+ПОЛНОЕ ОПИСАНИЕ (RU):
+Браузер — главный пожиратель памяти на слабых компьютерах: каждая открытая вкладка продолжает занимать оперативную память, даже если вы не открывали её несколько часов. Roomy Tabs усыпляет такие вкладки: они остаются на своих местах, но почти не занимают память. Нажмёте на вкладку — она загрузится заново.
+
+Бережно по умолчанию:
+• не усыпляет вкладки, где играет музыка, видео или идёт звонок;
+• не усыпляет вкладки, где вы начали что-то печатать — письмо, комментарий, форму;
+• не усыпляет закреплённые вкладки;
+• не трогает сайты из списка исключений (видеозвонки, мессенджеры и музыка уже добавлены, список можно менять);
+• сайт, который вы сейчас смотрите, можно одной кнопкой добавить в исключения.
+
+Умнее обычного таймера: в Chrome и Edge расширение следит за свободной памятью компьютера. Пока памяти хватает, вкладки засыпают через 30 минут, а когда её мало — уже через 5 (всё настраивается).
+
+Понятно: окно расширения показывает, сколько памяти свободно, сколько вкладок спит и почему какие-то вкладки сейчас не усыпляются.
+
+Приватно: расширение не собирает и не отправляет никаких данных, не делает сетевых запросов, в нём нет рекламы и аналитики.
+
+FULL DESCRIPTION (EN):
+On low-end computers the browser is usually the biggest memory hog: every open tab keeps using RAM even if you haven't looked at it for hours. Roomy Tabs puts such tabs to sleep — they stay where they are but use almost no memory. Click one and it reloads.
+
+Careful by default:
+• never sleeps tabs playing music, video or calls;
+• never sleeps tabs where you started typing — an email, a comment, a form;
+• never sleeps pinned tabs;
+• never touches sites on your exclusion list (video calls, messengers and music are pre-added, the list is editable);
+• add the current site to exclusions with one click.
+
+Smarter than a plain timer: in Chrome and Edge it watches your computer's free memory. While there's enough memory, tabs sleep after 30 minutes; when memory is low — after just 5 (all configurable).
+
+Clear: the popup shows free memory, how many tabs are sleeping, and why some tabs are protected right now.
+
+Private: collects and sends no data, makes no network requests, no ads, no analytics.
+
+КАТЕГОРИЯ: Productivity / Инструменты
+
+ОБОСНОВАНИЕ РАЗРЕШЕНИЙ (Chrome Web Store → Privacy practices):
+Single purpose: Put inactive browser tabs to sleep to reduce memory usage.
+tabs — to find tabs that haven't been opened for a while and check whether they are active, pinned or playing audio before putting them to sleep.
+storage — to keep the user's settings, exclusion list and the counter of tabs put to sleep locally.
+alarms — to check tabs once a minute without keeping the extension running.
+scripting — after installation, to add the typing-detection script to tabs that were already open, so tabs with unsaved text are protected.
+system.memory — to read the amount of free RAM and sleep tabs sooner when memory is low.
+Host permissions (http/https) — the content script only detects that the user started typing in a text field (not what was typed) so that tab is not put to sleep and the text is not lost. No page content is read or transmitted.
+Remote code: No.
+Data usage: The extension does not collect or transmit any user data.

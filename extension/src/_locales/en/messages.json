@@ -1,0 +1,137 @@
+{
+ "extName": {
+  "message": "Roomy Tabs"
+ },
+ "extDescription": {
+  "message": "Puts tabs you haven't opened in a while to sleep to free memory. Never touches tabs with audio, typed text or sites you choose."
+ },
+ "enabledTitle": {
+  "message": "Turn automatic tab sleeping on or off"
+ },
+ "tabsTotal": {
+  "message": "tabs total"
+ },
+ "tabsSleeping": {
+  "message": "sleeping"
+ },
+ "tabsAwake": {
+  "message": "awake"
+ },
+ "sleepNow": {
+  "message": "Sleep inactive tabs now"
+ },
+ "details": {
+  "message": "Details"
+ },
+ "protectedNow": {
+  "message": "Protected right now"
+ },
+ "settingsTitle": {
+  "message": "Settings"
+ },
+ "idleLabel": {
+  "message": "Sleep after"
+ },
+ "pressureIdleLabel": {
+  "message": "When memory is low — after"
+ },
+ "pressureThresholdLabel": {
+  "message": "Memory is low when free is below"
+ },
+ "protectPinned": {
+  "message": "Don't sleep pinned tabs"
+ },
+ "protectAudible": {
+  "message": "Don't sleep tabs playing audio (music, video, calls)"
+ },
+ "protectForms": {
+  "message": "Don't sleep tabs where you started typing (email, comment, form)"
+ },
+ "whitelistTitle": {
+  "message": "Sites that never sleep"
+ },
+ "whitelistHint": {
+  "message": "One per line. Subdomains count too: example.com covers m.example.com."
+ },
+ "save": {
+  "message": "Save"
+ },
+ "saved": {
+  "message": "Saved"
+ },
+ "howItWorks": {
+  "message": "A sleeping tab stays in place and uses almost no memory. Click it and it reloads."
+ },
+ "resetSettings": {
+  "message": "Reset settings"
+ },
+ "resetConfirm": {
+  "message": "Restore default settings and site list?"
+ },
+ "gb": {
+  "message": "GB"
+ },
+ "min": {
+  "message": "min"
+ },
+ "percentFree": {
+  "message": "% free"
+ },
+ "memFree": {
+  "message": "$1 free of $2"
+ },
+ "memUnknown": {
+  "message": "This browser doesn't report free memory — using a timer only."
+ },
+ "ruleOff": {
+  "message": "Automatic sleeping is off."
+ },
+ "ruleNormal": {
+  "message": "Tabs you haven't opened for $1 min go to sleep."
+ },
+ "rulePressure": {
+  "message": "Memory is low — tabs sleep after just $1 min."
+ },
+ "siteNever": {
+  "message": "this site never sleeps"
+ },
+ "siteNormal": {
+  "message": "this site can sleep"
+ },
+ "siteProtect": {
+  "message": "Never sleep"
+ },
+ "siteAllow": {
+  "message": "Allow sleep"
+ },
+ "protAudible": {
+  "message": "playing audio: $1"
+ },
+ "protPinned": {
+  "message": "pinned: $1"
+ },
+ "protForm": {
+  "message": "with typed text: $1"
+ },
+ "protWhitelist": {
+  "message": "excluded sites: $1"
+ },
+ "protNone": {
+  "message": "None."
+ },
+ "statsLine": {
+  "message": "Put to sleep today: $1 · total: $2"
+ },
+ "sleptN": {
+  "message": "Tabs put to sleep: $1"
+ },
+ "sleptNone": {
+  "message": "Nothing to sleep — inactive tabs are already asleep or protected."
+ },
+ "usedPct": {
+  "message": "$1% used"
+ },
+ "decimalSep": {
+  "message": "."
+ }
+}

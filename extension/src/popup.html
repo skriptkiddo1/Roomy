@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <header>
+    <img src="icons/icon32.png" alt="" width="22" height="22">
+    <h1 data-i18n="extName"></h1>
+    <label class="switch" data-i18n-title="enabledTitle">
+      <input type="checkbox" id="enabled">
+      <span class="track"></span>
+    </label>
+  </header>
+
+  <section class="card" id="memCard">
+    <div class="memline"><span id="memText"></span><span id="memPct" class="pct"></span></div>
+    <div class="bar"><div id="memBar"></div></div>
+    <div id="ruleText" class="muted"></div>
+  </section>
+
+  <section class="stats">
+    <div><b id="cTotal">–</b><span data-i18n="tabsTotal"></span></div>
+    <div><b id="cSleeping">–</b><span data-i18n="tabsSleeping"></span></div>
+    <div><b id="cAwake">–</b><span data-i18n="tabsAwake"></span></div>
+  </section>
+
+  <button id="sleepNow" class="primary" data-i18n="sleepNow"></button>
+  <div id="result" class="muted center"></div>
+
+  <section class="card row" id="siteRow" hidden>
+    <div class="site">
+      <span id="siteHost"></span>
+      <span class="muted small" id="siteState"></span>
+    </div>
+    <button id="siteToggle" class="secondary"></button>
+  </section>
+
+  <div class="row detailsToggle">
+    <span data-i18n="details"></span>
+    <label class="switch">
+      <input type="checkbox" id="detailed">
+      <span class="track"></span>
+    </label>
+  </div>
+
+  <div id="details" hidden>
+    <section class="card">
+      <div class="title" data-i18n="protectedNow"></div>
+      <div id="protectedText" class="muted"></div>
+    </section>
+
+    <section class="card">
+      <div class="title" data-i18n="settingsTitle"></div>
+      <label class="field"><span data-i18n="idleLabel"></span>
+        <select id="idleMinutes"></select></label>
+      <label class="field" id="pressureRow1"><span data-i18n="pressureIdleLabel"></span>
+        <select id="pressureIdleMinutes"></select></label>
+      <label class="field" id="pressureRow2"><span data-i18n="pressureThresholdLabel"></span>
+        <select id="pressureThreshold"></select></label>
+      <label class="check"><input type="checkbox" id="protectPinned"><span data-i18n="protectPinned"></span></label>
+      <label class="check"><input type="checkbox" id="protectAudible"><span data-i18n="protectAudible"></span></label>
+      <label class="check"><input type="checkbox" id="protectForms"><span data-i18n="protectForms"></span></label>
+      <div class="title small-gap" data-i18n="whitelistTitle"></div>
+      <div class="muted small" data-i18n="whitelistHint"></div>
+      <textarea id="whitelist" rows="5" spellcheck="false"></textarea>
+      <div class="row">
+        <button id="saveWhitelist" class="secondary" data-i18n="save"></button>
+        <span id="savedMark" class="muted small"></span>
+      </div>
+    </section>
+
+    <section class="card">
+      <div id="statsText" class="muted"></div>
+      <div class="muted small" data-i18n="howItWorks"></div>
+      <button id="reset" class="link" data-i18n="resetSettings"></button>
+    </section>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
